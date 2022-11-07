@@ -358,7 +358,7 @@ Parameter
 ## Analysis of top level Element[4]
 This call is to contract: [5df712fb47651986b1f972a8c71e364a37b207d1](https://bscscan.com/address/0x5df712fb47651986b1f972a8c71e364a37b207d1#code).
 
-It is for function selector (0x919840ad), which takes no parameters.
+It is for function ```check()``` (function selector 919840ad).
 
 
 ## Analysis of top level Element[0]'s Element[0]
@@ -438,7 +438,7 @@ Element [2] {
 }
 Element [3] {
   address
-  0000000000000000000000005df712fb47651986b1f972a8c71e364a37b207d1
+  0000000000000000000000005df712fb47651986b1f972a8c71e364a37b207d1  <-- unknown contract
   offset of bytes
   0000000000000000000000000000000000000000000000000000000000000040
   bytes {
@@ -492,3 +492,32 @@ address
 uint256
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ```
+
+## Analysis of Element[0]'s Element[0]'s Element[2]
+The call is to PancapeSwap v2 contract (10ed43c718714eb63d5aa57b78b54704e256024e) with
+function ```swapExactTokensForTokensSupportingFeeOnTransferTokens(uint256,uint256,address[],address,uint256)``` (function selector 5c11d795).
+
+```
+uint256
+0000000000000000000000000000000000000000002afb7c108d64a9177c0000
+uint256
+0000000000000000000000000000000000000000000000000000000000000000
+offset of array
+00000000000000000000000000000000000000000000000000000000000000a0
+address
+000000000000000000000000cd62dde0e5acbc1d596b1c1699c8b2a5f1327693
+uint256
+000000000000000000000000000000000000000000000000000000e8d4a50fff
+number of element in array
+0000000000000000000000000000000000000000000000000000000000000002
+address [0] - LPR token contract
+00000000000000000000000091191a15e778d46255fc9acd37d028228d97e786
+address [1] - Binance WBNB Token
+000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+```
+
+## Analysis of Element[0]'s Element[0]'s Element[3]
+The call is to unknown contract (5df712fb47651986b1f972a8c71e364a37b207d1) with
+function ```check()``` (function selector 919840ad).
+
+
