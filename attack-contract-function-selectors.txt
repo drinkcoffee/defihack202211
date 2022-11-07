@@ -1,0 +1,29 @@
+Function Selectors in attack contract
+
+Method names cached from 4byte.directory.
+0x0a1ba1af Unknown
+0x0b803b36 Unknown
+0x12065fe0 getBalance()
+0x146b8253 Unknown
+0x17efea78 Unknown
+0x2232d539 Unknown
+0x34c2c130 depositeAll()
+0x3a681d36 Unknown
+0x429febe2 Unknown
+0x52efea6e clear()
+0x6d30de63 Unknown
+0x6e07c470 transferETH(uint256,address)
+0x7e4d98fe Unknown
+0x8014bad3 transferAll(address[],address)
+0x9d3b1297 Unknown
+0xb522d413 Unknown
+0xb8a1ebb1 Unknown
+0xba125fe5 Unknown
+0xbe9e09d6 getSwapPath(address,address)
+0xc230df73 Unknown
+0xc4d17761 Unknown
+0xca6d56dc addMember(address)
+0xcaa5c23f multicall((address,bytes)[])    <---- attack function entry point
+0xd9b18495 Unknown    ((address, bytes)[])
+0xf368b946 Unknown
+

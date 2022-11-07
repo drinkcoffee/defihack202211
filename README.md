@@ -20,9 +20,17 @@ Contracts:
 
 Attack Transaction:
 
-* The attacker used a transaction (https://bscscan.com/tx/0x085beaf22438287312d56620973b9c00a82b99a44a6cf1f00ef6c88ab3656464) to
+* The attacker used a transaction [https://bscscan.com/tx/0x085beaf22438287312d56620973b9c00a82b99a44a6cf1f00ef6c88ab3656464](https://bscscan.com/tx/0x085beaf22438287312d56620973b9c00a82b99a44a6cf1f00ef6c88ab3656464) to
 transfer all the LPR token from the safe, then emptied our LP pool on pancake swap. 
 * The attacker contract called the following function multicall((address,bytes)[]) (function selector 0xcaa5c23f), 
   executing a series of transactions, starting with withdrawing all the treasury tokens. 
 
-  
+## Analysis
+### Attack Contract
+Attacker (contract assembler code)[attacker-contract.txt]. More analysis can be done using https://ethervm.io/decompile
+
+(Function selectors)[attack-contract-function-selectors].
+
+### Attack Transaction
+
+
