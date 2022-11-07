@@ -61,6 +61,9 @@ function batchTransferFrom(
 }
 ```
 
+Note: The [transaction trace](https://bscscan.com/vmtrace?txhash=0x085beaf22438287312d56620973b9c00a82b99a44a6cf1f00ef6c88ab3656464&type=gethtrace2) 
+was not used, but would have been another way to quickly understand what had happened.
+
 ## Who stole the tokens?
 This analysis has not been completed. To do this:
 
